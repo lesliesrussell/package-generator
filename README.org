@@ -1,0 +1,81 @@
+* package-generator - Emacs Lisp Package Boilerplate Generator
+:PROPERTIES:
+:CUSTOM_ID: top
+:END:
+
+This Emacs Lisp package provides a convenient and automated way to generate the boilerplate code for new Emacs Lisp packages. It creates a standard directory structure, initializes a git repository, and sets up basic files like README, LICENSE, and the .el file for the package.
+
+* Table of Contents
+:PROPERTIES:
+:CUSTOM_ID: toc
+:END:
+
+- [[#top][package-generator - Emacs Lisp Package Boilerplate Generator]]
+- [[#installation][Installation]]
+- [[#usage][Usage]]
+- [[#customization][Customization]]
+- [[#contributing][Contributing]]
+
+* Installation
+:PROPERTIES:
+:CUSTOM_ID: installation
+:END:
+
+To install package-generator, follow these steps:
+
+1. Clone the repository or download the package-generator.el file.
+2. Place the file in your Emacs load path.
+3. Add the following line to your Emacs configuration:
+
+   #+BEGIN_SRC elisp
+   (require 'package-generator)
+   #+END_SRC
+
+* Usage
+:PROPERTIES:
+:CUSTOM_ID: usage
+:END:
+
+To generate a new Emacs Lisp package, use the interactive function `pg-generate-package`. This function prompts you for the package name and automatically sets up the directory structure and files.
+
+#+BEGIN_SRC elisp
+M-x pg-generate-package
+#+END_SRC
+
+* Customization
+:PROPERTIES:
+:CUSTOM_ID: customization
+:END:
+
+`package-generator` offers several customization options. You can modify these options to suit your preferences. Some of the customizable variables include:
+
+- `pg-author`: Your default author name and email.
+- `pg-version`: Default version number for the package.
+- `pg-package-requires`: List of package dependencies.
+- `pg-keywords`: List of keywords for the package.
+- `pg-url`: URL of the package.
+- `pg-root-dir`: Root directory for creating new packages.
+- `pg-directory-structure`: Directory structure to create.
+- `pg-file-templates`: File templates for package files.
+
+These can be customized by accessing the Emacs customization menu:
+
+#+BEGIN_SRC elisp
+M-x customize-group RET package-generator RET
+#+END_SRC
+
+* Contributing
+:PROPERTIES:
+:CUSTOM_ID: contributing
+:END:
+
+Contributions to `package-generator` are welcome. To contribute, you can:
+
+- Report issues or suggest features.
+- Submit pull requests for bug fixes or enhancements.
+
+For more information, visit the [repository URL](http://example.com/package-name).
+
+* License
+
+`package-generator` is licensed under [MIT License]. For more details, see the [[file:LICENSE.txt::MIT License][LICENSE]] file in the repository.
