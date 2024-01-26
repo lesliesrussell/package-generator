@@ -4,7 +4,7 @@
 ;; Author: L. S. Russell <lesliesrussell@gmail.com>
 ;; Version: 1.0
 ;; Keywords: tools, package, development
-;; URL: http://example.com/package-name
+;; URL: https://github.com/lesliesrussell/package-generator
 ;; Package-Requires: ((emacs "29.1"))
 
 ;; This file is not part of GNU Emacs.

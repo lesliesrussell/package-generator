@@ -74,7 +74,7 @@ Contributions to `package-generator` are welcome. To contribute, you can:
 - Report issues or suggest features.
 - Submit pull requests for bug fixes or enhancements.
 
-For more information, visit the [repository URL](http://example.com/package-name).
+For more information, visit the [repository URL](https://github.com/lesliesrussell/package-generator).
 
 * License
 
